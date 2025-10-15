@@ -3,7 +3,7 @@ import json
 import hashlib
 
 def request():   
-    url = "http://0.0.0.0:8000"
+    url = "http://0.0.0.0:8000/api/v1/devices"
     data = {}
     with open('../cs-qualif-step2-bruno/bruno.json', 'r') as file:
         data = json.load(file)
