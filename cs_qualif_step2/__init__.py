@@ -5,7 +5,7 @@ import hashlib
 def request():   
     url = "http://0.0.0.0:8000"
     data = {}
-    with open('../cs-qualif-step2-bruno.json', 'r') as file:
+    with open('../cs-qualif-step2-bruno/bruno.json', 'r') as file:
         data = json.load(file)
 
     x = requests.post(url, data)
